@@ -1,0 +1,12 @@
+{
+  "name": "chatapp",
+  "version": "0.0.1",
+  "description": "my attempt at chat app :'((",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "express": "^4.15.2",
+    "fs": "0.0.1-security",
+    "socket.io": "^3.0.1"
+  }
+}

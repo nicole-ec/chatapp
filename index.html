@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Chat attempt :C</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row chat-content">
+            <div class="col-9 h-100">
+                <div class="chat" id="chat">
+                    <ul id="messages">
+                    </ul>
+                </div>
+                <div class="row">
+                    <form>
+                        <div class="row form-content">
+                            <div class="col-11 pr-0">
+                                <input id="m" autocomplete="off" class="form-control" />
+                            </div>
+                            <div class="col-1 pl-0">
+                                <button type="submit" class="btn btn-primary">Send</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="col-3 online-users-content">
+                <div class="online-users rounded-right">
+                    <h6>Online Users:</h6>
+                    <ul class="users-content">
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="chat.js"></script>
+</body>
+
+</html>
