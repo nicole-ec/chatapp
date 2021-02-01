@@ -1,6 +1,6 @@
 # chatapp-uwu
 
-The following code is an attempt at a chat app :(
+The following code is a chat app created for a school assignment.
 The socketIO starter code was referenced: https://socket.io/get-started/chat/
 
 To run:
